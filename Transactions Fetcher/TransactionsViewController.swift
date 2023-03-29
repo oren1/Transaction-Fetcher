@@ -21,7 +21,6 @@ class TransactionsViewController: UIViewController {
         textField.attributedPlaceholder = NSAttributedString(string: "Enter Address",
                                     attributes: [.foregroundColor: UIColor.white])
         
-        
         tableView.delegate = self
         tableView.dataSource = self
         
